@@ -1,0 +1,12 @@
+# En todos los proyectos donde se vea involucrado node es necesario ignorar node_modules
+# para tener estos modulos solamente se requiere npm install con packages.json en raiz
+node_modules
+
+# En proyectos de cualquier tipo es importante ignorar el archivo donde se encuentran las variables locales
+.env
+
+# Logger de error producido por yarn
+yarn-error.log
+
+# Notas:
+# -> yarn.lock es necesario rastrearlo durante el proyecto porque este archivo maneja las versiones y evita errores del tipo *works on my machine*
